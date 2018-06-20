@@ -1,12 +1,5 @@
 # AR-Drone_Control
 
-## System:
-  - OS: Ubuntu 16.04 LTS
-  - Memory: 7.8 Gb
-  - Processor: Intel® Core™ i5-3570 CPU @ 3.40GHz × 4
-  - Graphic: AMD CAICOS (DRM 2.50.0 / 4.13.0-43-generic, LLVM 5.0.0)
-  - OS Type: 64-bit
-
 ## Programs Installation:
   - ROS
 
@@ -69,3 +62,40 @@ The source code in apriltags2_ros/ is original code that is the ROS wrapper itse
 If you use this code, please kindly cite:
 - D. Malyuta, “Navigation, Control and Mission Logic for Quadrotor Full-cycle Autonomy,” Master thesis, Jet Propulsion Laboratory, 4800 Oak Grove Drive, Pasadena, CA 91109, USA, December 2017.
 - J. Wang and E. Olson, "AprilTag 2: Efficient and robust fiducial detection," in ''Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)'', October 2016.
+
+
+## System Spec:
+  - OS: Ubuntu 16.04 LTS
+  - Memory: 7.8 Gb
+  - Processor: Intel® Core™ i5-3570 CPU @ 3.40GHz × 4
+  - Graphic: AMD CAICOS (DRM 2.50.0 / 4.13.0-43-generic, LLVM 5.0.0)
+  - OS Type: 64-bit
+
+## Air Drone Spec:
+  - Drone: [Parrot AR Drone 2.0](https://www.parrot.com/global/drones/parrot-ardrone-20-elite-edition#parrot-ardrone-20-elite-edition)
+  - HD video recording:
+    - 720p 30fps HD camera
+    - Wide-angle lens: 92° diagonal
+    - Basic encoding profile: H264
+    - Photo format: JPEG
+    - Connection: Wi-Fi
+  - Electronic assistance
+    - Processor: ARM Cortex A8 1 GHz 32-bit processor with DSP video 800 MHz TMS320DMC64x
+    - OS: Linux 2.6.32
+    - RAM: DDR2 1 GB at 200 MHz
+    - USB: High-speed USB 2.0 for extensions
+    - Wi-Fi b g n
+    - Gyroscope: 3 axles, accuracy of 2,000°/second
+    - Accelerometer: 3 axles, accuracy of +/- 50 mg
+    - Magnetometer: 3 axles, accuracy of 6°
+    - Pressure sensor: Accuracy of +/- 10 Pa
+    - Altitude ultrasound sensor: Measures altitude
+    - Vertical camera: QVGA 60 FPS to measure the ground speed
+  - Motors & Weight
+    - 4 "inrunner" type brush-free motors: 14.5 watts and 28,500 rev/min
+    - Micro ball bearing: Yes
+    - Nylatron Gears: Yes
+    - Bronze self-lubricating ball bearings: Yes
+    - Weight:
+      > With internal frame 380 g & 
+      > With external frame 420 g
