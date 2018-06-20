@@ -1,7 +1,7 @@
 # AR-Drone_Control
 
 ## Programs Installation:
-  - ROS
+  - ROS - Kinetic
 
 ## Required ROS Packet Installation:
   - [apriltags2_ros](http://wiki.ros.org/apriltags2_ros)
@@ -11,6 +11,8 @@
 
 ## Direction:
   1. Install all required packet
+  2. Download Repo into `~/catkin_ws/src`
+  3. Build in `~/catkin_ws` using `catkin_make`
 
 ## To Run:
 - Terminal 1: `roslaunch drone_application launch_drone.launch`
